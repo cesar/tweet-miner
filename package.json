@@ -1,0 +1,25 @@
+{
+  "name": "tweet-miner",
+  "version": "1.0.0",
+  "description": "Gather twitter data for THS system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sezalcru/tweet-miner.git"
+  },
+  "author": "sezalcru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sezalcru/tweet-miner/issues"
+  },
+  "homepage": "https://github.com/sezalcru/tweet-miner#readme",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "pg": "^4.4.4",
+    "twit": "^2.1.3"
+  }
+}
